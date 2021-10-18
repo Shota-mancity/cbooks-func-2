@@ -16,7 +16,7 @@ const App = () => {
       .then(jsonResponse => {
         console.log(jsonResponse);
         // CORSエラーが解決できず
-        // setSearchBooks(jsonResponse.a)
+        // setSearchBooks(jsonResponse.a) 
       })
       .catch(console.log("error"))
   };
