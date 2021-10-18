@@ -1,0 +1,216 @@
+header {
+  background-color: #70afde;
+}
+
+header p {
+  color: white;
+  margin-left: 40px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#menu-btn-check {
+  display: none;
+}
+
+.menu-btn {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  display: flex;
+  height: 20px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  z-index: 90;
+}
+
+.menu-btn:hover {
+  cursor: pointer;
+}
+
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+}
+.menu-btn span:before {
+  bottom: 5px;
+}
+.menu-btn span:after {
+  top: 5px;
+}
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 80;
+  background-color: #3584bb;
+}
+.menu-content ul {
+  padding: 70px 10px 0;
+}
+.menu-content ul li {
+  border-bottom: solid 1px #ffffff;
+  list-style: none;
+}
+.menu-content ul li a {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 9px 15px 10px 0;
+  position: relative;
+}
+.menu-content ul li a::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 11px;
+  top: 16px;
+}
+
+.menu-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 100%; /*leftの値を変更してメニューを画面外へ*/
+  z-index: 80;
+  background-color: #70afde;
+  transition: all 0.5s; /*アニメーション設定*/
+}
+
+#menu-btn-check:checked ~ .menu-content {
+  left: 80%; /*メニューを画面内へ*/
+}
+
+.conteiner {
+  width: 96%;
+  margin: 0 auto;
+  color: gray;
+}
+
+h5 {
+  color: #70afde;
+}
+
+.description {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.description p {
+  font-size: 13px;
+  margin: 0;
+}
+
+.how-to-use {
+  text-align: center;
+}
+
+.how-to-button {
+  border: none;
+  text-decoration: underline 1px;
+  padding: 8px 6px;
+  background-color: white;
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.how-to-button:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.search-conteiner {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-control {
+  border: none;
+  border-bottom: solid 1px gray;
+}
+
+.form-control:hover {
+  border-bottom: solid 2px black;
+}
+
+.table-conteiner {
+  margin-top: 10px;
+}
+
+table {
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 400px;
+}
+
+.table > :not(caption) > * > * {
+  padding: 5px 40px 5px 10px;
+}
+
+.item {
+  text-align: left;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+}
+
+.download {
+  height: 45px;
+}
+
+.download-button {
+  float: right;
+  font-size: 15px;
+  border: none;
+  padding: 6px 16px;
+  background-color: rgb(112, 175, 222);
+  border-radius: 5px;
+}
+
+.download-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.advertisement-conteiner p {
+  color: black;
+}
+
+.advertisement {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 300px;
+  overflow: scroll;
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0;
+  color: gray;
+}

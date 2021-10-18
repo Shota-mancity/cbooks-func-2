@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>app_mode_loader</string>
+	<key>CFBundleIconFile</key>
+	<string>app.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.Chrome.app.eldhggihmfljfmmehipaaofhmngikkfm</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>only for practice</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4577.82</string>
+	<key>CrAppModeShortcutID</key>
+	<string>eldhggihmfljfmmehipaaofhmngikkfm</string>
+	<key>CrAppModeShortcutName</key>
+	<string>only for practice</string>
+	<key>CrAppModeShortcutURL</key>
+	<string>https://www.google.com/search?q=mac+chrome+%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E4%BD%9C%E6%88%90&amp;sxsrf=AOaemvL_d8SO3zFmFvDpc-KBdcQlvTuxkw%3A1634524613499&amp;ei=xd1sYZTcHY2s0QTukITQAQ&amp;oq=mac+chrome+%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%AB%E3%83%83%E3%83%88%E4%BD%9C%E6%88%90&amp;gs_lcp=Cgdnd3Mtd2l6EAEYADIHCAAQRxCwA0oECEEYAFAAWABg7oQBaAFwAngAgAEAiAEAkgEAmAEAyAEBwAEB&amp;sclient=gws-wiz</string>
+	<key>CrAppModeUserDataDir</key>
+	<string>/Users/Shota/Library/Application Support/Google/Chrome/-/Web Applications/_crx_eldhggihmfljfmmehipaaofhmngikkfm</string>
+	<key>CrBundleIdentifier</key>
+	<string>com.google.Chrome</string>
+	<key>CrBundleVersion</key>
+	<string>93.0.4577.82</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTSDKBuild</key>
+	<string>11.3</string>
+	<key>DTSDKName</key>
+	<string>macosx11.3</string>
+	<key>DTXcode</key>
+	<string>1250</string>
+	<key>DTXcodeBuild</key>
+	<string>12E262</string>
+	<key>LSEnvironment</key>
+	<dict>
+		<key>MallocNanoZone</key>
+		<string>0</string>
+	</dict>
+	<key>LSHasLocalizedDisplayName</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11.0</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
